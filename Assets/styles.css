@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+aside {
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    height: 100%;
+    width: 25%;
+    border: dashed 1px #333;
+    display: block;
+    flex-direction: row;
+}
+
+aside form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    width: 100%;
+    margin: 2% 0;
+    padding: 1%;
+}
+
+main {
+    background-color: #fff;
+    color: #333;
+    padding: 1rem;
+    text-align: left;
+    border: dashed 1px #333;
+}
+
+main .forecast .forecast-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
