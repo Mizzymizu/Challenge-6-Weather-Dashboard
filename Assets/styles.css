@@ -9,10 +9,11 @@ header {
     color: #fff;
     padding: 1rem;
     text-align: center;
+    position: fixed;
+    width: 100%;
 }
 
 aside {
-    color: #fff;
     padding: 1rem;
     text-align: center;
     height: 100%;
@@ -20,6 +21,15 @@ aside {
     border: dashed 1px #333;
     display: block;
     flex-direction: row;
+    position: fixed;
+    top: 6.3%;
+    right: 75%;
+    width: 25%;
+    height: 100%;
+}
+
+aside .search-history {
+    color: white;
 }
 
 aside form {
@@ -39,11 +49,16 @@ main {
     padding: 1rem;
     text-align: left;
     border: dashed 1px #333;
+    position: fixed;
+    top: 6.3%;
+    left: 25%;
+    width: 75%;
+    height: 100%;
 }
 
 main .forecast .forecast-item {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin: 1rem 0;
