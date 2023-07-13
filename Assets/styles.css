@@ -56,10 +56,19 @@ main {
     height: 100%;
 }
 
+
+
 main .forecast .forecast-item {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 1rem 0;
+}
+
+main .forecast .sub {
+    display: inline-block;
+    flex-direction: row;
+    background-color: slategray;
+    margin: 10px;
 }
